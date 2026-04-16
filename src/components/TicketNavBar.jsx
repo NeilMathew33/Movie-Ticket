@@ -12,7 +12,7 @@ const TicketNavBar = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="/">Add Ticket</a>
+        <a class="nav-link active" aria-current="page" href="/Add">Add Ticket</a>
         <a class="nav-link" href="/search">Search Ticket</a>
         <a class="nav-link" href="/delete">Delete Ticket</a>
         <a class="nav-link" href="/ViewAll">View all Tickets</a>
