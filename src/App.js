@@ -6,6 +6,7 @@ import SearchTicket from './components/SearchTicket';
 import DeleteTicket from './components/DeleteTicket';
 import ViewAllTickets from './components/ViewAllTickets';
 import Login from './components/Login';
+import SignUp from './components/SignUp';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/delete" element={<DeleteTicket/>}/>
       <Route path="/ViewAll" element={<ViewAllTickets/>}/>
       <Route path="/" element={<Login/>}/>
+      <Route path="/SignUp" element={<SignUp/>}/>
     </Routes>
     </BrowserRouter>
   );
